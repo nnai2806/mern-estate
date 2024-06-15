@@ -247,7 +247,7 @@ const CreateListing = () => {
                 required
                 className="p-3 border border-gray-300 rounded-lg"
                 onChange={handleChange}
-                checked={formData.bedrooms}
+                value={formData.bedrooms}
               />
               <p>Beds</p>
             </div>
@@ -260,7 +260,7 @@ const CreateListing = () => {
                 required
                 className="p-3 border border-gray-300 rounded-lg"
                 onChange={handleChange}
-                checked={formData.bathrooms}
+                value={formData.bathrooms}
               />
               <p>Baths</p>
             </div>
@@ -273,7 +273,7 @@ const CreateListing = () => {
                 required
                 className="p-3 border border-gray-300 rounded-lg"
                 onChange={handleChange}
-                checked={formData.regularPrice}
+                value={formData.regularPrice}
               />
               <div className="flex flex-col items-center">
                 <p>Regular price</p>
@@ -290,7 +290,7 @@ const CreateListing = () => {
                   required
                   className="p-3 border border-gray-300 rounded-lg"
                   onChange={handleChange}
-                  checked={formData.discountPrice}
+                  value={formData.discountPrice}
                 />
                 <div className="flex flex-col items-center">
                   <p>Discounted price</p>
